@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "whatsapp": {
+      "id": "whatsapp",
+      "name": "WhatsApp Broadcast Hub",
+      "type": "WhatsApp Web / Baileys",
+      "connected": true,
+      "status": "Online",
+      "icon": "fa-brands fa-whatsapp",
+      "color": "#25d366",
+      "active_targets": "Broadcast List (256 Contacts)"
+    },
+    "telegram": {
+      "id": "telegram",
+      "name": "Telegram Bot & Channels",
+      "type": "Telegram Bot API",
+      "connected": true,
+      "status": "Online",
+      "icon": "fa-brands fa-telegram",
+      "color": "#38bdf8",
+      "active_targets": [
+        "@creators_editing_hub",
+        "@indian_video_editors",
+        "@meme_assets_india"
+      ]
+    },
+    "discord": {
+      "id": "discord",
+      "name": "Discord Webhook Network",
+      "type": "Discord Webhooks",
+      "connected": true,
+      "status": "Online",
+      "icon": "fa-brands fa-discord",
+      "color": "#818cf8",
+      "active_targets": [
+        "#creators-lounge",
+        "#self-promo-hub",
+        "#editing-zone"
+      ]
+    },
+    "reddit": {
+      "id": "reddit",
+      "name": "Reddit Auto-Poster",
+      "type": "Reddit OAuth 2.0",
+      "connected": true,
+      "status": "Online",
+      "icon": "fa-brands fa-reddit-alien",
+      "color": "#f97316",
+      "active_targets": [
+        "r/IndianDankMemes",
+        "r/SmallYoutubers",
+        "r/CapCut"
+      ]
+    },
+    "twitter": {
+      "id": "twitter",
+      "name": "X / Twitter Broadcaster",
+      "type": "Twitter API v2",
+      "connected": true,
+      "status": "Online",
+      "icon": "fa-brands fa-x-twitter",
+      "color": "#38bdf8",
+      "active_targets": "@AutoBlast_Growth"
+    },
+    "instagram": {
+      "id": "instagram",
+      "name": "Instagram & Meta Reels",
+      "type": "Meta Graph API",
+      "connected": true,
+      "status": "Online",
+      "icon": "fa-brands fa-instagram",
+      "color": "#ec4899",
+      "active_targets": "@autoblast.ai"
+    }
+  },
+  "campaigns": [
+    {
+      "id": "test_cid",
+      "product_name": "VoxAI Studio",
+      "timestamp": "2026-08-16 00:25:37",
+      "platforms": [
+        "whatsapp",
+        "telegram",
+        "discord",
+        "reddit",
+        "twitter"
+      ],
+      "delivered_count": 11,
+      "estimated_reach": 2640,
+      "status": "Completed"
+    }
+  ],
+  "analytics": {
+    "total_blasts": 25,
+    "total_delivered": 631,
+    "total_clicks": 4851,
+    "platforms_breakdown": {
+      "telegram": 1821,
+      "whatsapp": 1340,
+      "reddit": 820,
+      "discord": 510,
+      "twitter": 360
+    }
+  }
+}
