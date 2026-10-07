@@ -1,11 +1,10 @@
-"""
-🚀 AUTOBLAST AI - FASTAPI API GATEWAY SERVER
-Author: Harshit Pratap & Antigravity AI
-"""
-
 import os
 import sys
 import time
+
+# Ensure UTF-8 output on Windows console
+if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 from typing import Optional, List, Dict, Any
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.staticfiles import StaticFiles

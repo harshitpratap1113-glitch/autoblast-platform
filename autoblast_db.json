@@ -75,6 +75,21 @@
   },
   "campaigns": [
     {
+      "id": null,
+      "product_name": "VoxAI Studio (Free Meme Soundboard & Hindi Voice AI)",
+      "timestamp": "2026-08-16 00:30:10",
+      "platforms": [
+        "whatsapp",
+        "telegram",
+        "discord",
+        "reddit",
+        "twitter"
+      ],
+      "delivered_count": 11,
+      "estimated_reach": 4422,
+      "status": "Completed"
+    },
+    {
       "id": "test_cid",
       "product_name": "VoxAI Studio",
       "timestamp": "2026-08-16 00:25:37",
@@ -91,8 +106,8 @@
     }
   ],
   "analytics": {
-    "total_blasts": 25,
-    "total_delivered": 631,
+    "total_blasts": 26,
+    "total_delivered": 642,
     "total_clicks": 4851,
     "platforms_breakdown": {
       "telegram": 1821,
